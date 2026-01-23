@@ -32,7 +32,7 @@ def verify_integrity(data: bytes, expected_hex: str) -> bool:
 
 if __name__ == "__main__":
     # Assume we downloaded this fingerprint from the file author.
-    true_fp = "da39a3ee5e6b4b0d3255bfef95601890afd80709\n"
+    true_fp = "7682bf3e6fbde3d7a0926937cc5d2c90784f6db09c41629ade03a61498b4664a\n"
     print("True fingerprint:", true_fp)
 
     # Assume we read this file from disk.
